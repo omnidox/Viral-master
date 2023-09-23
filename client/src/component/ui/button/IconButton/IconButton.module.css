@@ -1,0 +1,40 @@
+.button {
+    background-color: transparent !important;
+    color: #6C757D;
+}
+
+.button:hover,
+.button:active {
+    background-color: transparent;
+    border-color: #FF0051;
+    box-shadow: 0 0 0 0.2rem #FF005166;
+}
+
+.button i, .button b {
+    transition-duration: 0.2s;
+}
+
+.button:hover i {
+    font-weight: bold;
+}
+
+.button:hover i, .button:hover b {
+    color: #FF6697;
+}
+
+.pillVariant {
+    color: white;
+    background-color: #FF0051 !important;
+}
+
+.pillVariant:hover i, .pillVariant:hover b {
+    color: white;
+}
+
+.filled {
+    color: #FF6697;
+}
+
+.filled i {
+    font-weight: bold;
+}

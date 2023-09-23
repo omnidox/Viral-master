@@ -1,0 +1,12 @@
+.bar {
+    background-color: #FFFFFF22 !important;
+    border: #333 solid 0.1em;
+}
+
+.searchButton {
+    background-color: transparent;
+}
+
+.searchButton:hover {
+    background-color: #FFFFFF11;
+}

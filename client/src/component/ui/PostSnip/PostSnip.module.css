@@ -1,0 +1,12 @@
+.card {
+    transition-duration: 0.1s;
+}
+
+.card:hover {
+    border-color: #FF0051;
+}
+
+.clickable {
+    position: relative;
+    z-index: 1;
+}

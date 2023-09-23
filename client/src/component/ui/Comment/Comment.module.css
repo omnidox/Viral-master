@@ -1,0 +1,25 @@
+.highlight {
+    background-color: #FF0051;
+    border-radius: 0.5em;
+    margin: 0.5em;
+}
+
+.highlight p,
+.highlight i,
+.highlight small {
+    color: #fff;
+}
+
+/* Used to notify a newly inserted comment */
+.notify {
+    animation: flash 1s;
+}
+
+@keyframes flash {
+    from {
+        background-color: #FF0051;
+    }
+    to {
+        background-color: transparent;
+    }
+}

@@ -1,0 +1,34 @@
+.sidebar {
+    width: 15em;
+    max-width: 15em;
+    z-index: 999;
+    border-color: #ccc !important;
+    visibility: visible;
+    transition-duration: 0.2s;
+}
+
+.backdrop {
+    display: none;
+}
+
+@media only screen and (max-width: 576px) {
+    .collapse {
+        border: 0 !important;
+        max-width: 0;
+    }
+
+    .sidebar {
+        position: fixed;
+        height: 100vh;
+    }
+
+    div:not(.collapse) + .backdrop {
+        z-index: 998;
+        display: block;
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background-color: #00000033;
+        backdrop-filter: blur(2px);
+    }
+}

@@ -1,0 +1,6 @@
+.blur {
+    opacity: 1 !important;
+    background: #000000cc !important;
+    backdrop-filter: blur(1em);
+    border-color: #FF0051ff !important;
+}

@@ -1,0 +1,27 @@
+.button {
+    background-color: transparent;
+    border-color: #ccc;
+}
+
+.button .text {
+    color: #333;
+}
+
+.button:hover {
+    border-color: #FF0051;
+    box-shadow: 0 0 0 0.2rem #FF005166;
+}
+
+.button i, .button b {
+    transition-duration: 0.2s;
+}
+
+.button:hover i, .button:hover b {
+    color: #FF6697;
+}
+
+.selected .button {
+    border-color: #FF0051;
+    background-color: #FF338411 !important;
+    box-shadow: 0 0 0 0.2rem #FF005166;
+}

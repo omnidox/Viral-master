@@ -1,0 +1,14 @@
+.textarea {
+    border-color: transparent;
+}
+
+.previewBox {
+    height: fit-content;
+    border-color: #CCC !important;
+}
+
+.controlsBox {
+    z-index: 900;
+    border-color: #CCC !important;
+    top: 3.6em;
+}

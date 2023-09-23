@@ -1,0 +1,19 @@
+.button {
+    color: #6C757D !important;
+    border: none;
+}
+
+.button:hover i {
+    font-weight: bold;
+}
+
+.button:hover i {
+    color: #FF6697;
+}
+
+.filled {
+    box-shadow: 0 0 0 0.05em white;
+    border-radius: 0.4em !important;
+    color: #FF6697 !important;
+    font-weight: bold;
+}
