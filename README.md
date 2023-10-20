@@ -50,4 +50,4 @@ In the [server](/server) and [client](/client) directory, run the following comm
   - password: `viral_password`
 
  ## Conclusion
-The Viral Master repository is a feature-rich social media platform that offers a wide range of functionalities for user interaction and content sharing. It's a great showcase for potential employers to understand the depth and breadth of the developer's skills in both backend and frontend development.
+The Viral Master repository is a feature-rich social media platform that offers a wide range of functionalities for user interaction and content sharing. 
